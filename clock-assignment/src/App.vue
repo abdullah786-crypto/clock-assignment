@@ -40,6 +40,7 @@ const updateClock = () => {
 }
 
 onMounted(() => {
+  updateClock();
   setInterval(() => {
     updateClock();
   }, 1000);
